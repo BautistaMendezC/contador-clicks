@@ -16,6 +16,9 @@ const botonClick = () => {
 const botonReinicio = () => {
   setnumclicks(0);
 }
+const botonDeADos = () => {
+  setnumclicks(numclicks + 2);
+}
 
 
   return (
@@ -33,6 +36,11 @@ const botonReinicio = () => {
         nombre= "reinicio"
         esbotonClick={false}
         funcionClick= {botonReinicio}
+        />
+        <Boton 
+        nombre="suma de a 2"
+        esbotonClick={false}
+        funcionClick={botonDeADos}
         />
       </div>
     </div>
