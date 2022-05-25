@@ -17,7 +17,7 @@ const botonReinicio = () => {
   setnumclicks(0);
 }
 const botonDeADos = () => {
-  setnumclicks(numclicks + 2);
+  setnumclicks(numclicks + 1);
 }
 
 
